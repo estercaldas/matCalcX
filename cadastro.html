@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro - Sistema de Materiais Ferrosos</title>
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>Crie sua conta</h1>
+      <form>
+        <div class="input-duplo">
+          <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+          </div>
+        </div>
+        <div class="input-duplo">
+          <div>
+            <label for="matricula">Matrícula</label>
+            <input type="text" id="matricula" name="matricula" required>
+          </div>
+          <div>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required>
+          </div>
+        </div>
+        <button type="submit" class="botao-cadastro">SING UP</button>
+      </form>
+    </div>
+    <div class="right">
+      <p>Já possui uma conta?</p>
+      <button onclick="redirecionarLogin()" class="botao-login">LOGIN</button>
+    </div>
+  </div>
+
+  <script src="cadastro.js"></script>
+</body>
+</html>

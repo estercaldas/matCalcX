@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  margin: 50px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.left {
+  flex: 1;
+  background: linear-gradient(to top, #162875, #c6e9ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left img {
+  width: 110%;
+}
+
+.right {
+  flex: 1;
+  padding: 40px;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin: 20px 0 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.senha-container {
+  position: relative;
+}
+
+.senha-container input {
+  padding-right: 10px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 3%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 12px;
+  color: #333987;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.botao-container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botao-entrar{
+    background-color: #162875;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none ;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
